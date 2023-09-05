@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.landing{
+   background-image:url("spice.webp");
+    background-size:100%;
+    background-position:center;
+    height:100vh;
+    color:var(--white);
+}
+.maintext{
+    display:flex;
+    flex-direction:column;
+    height:50vh;
+    justify-content: center;
+    padding:2em;
+}
+.tagline1{
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: yellow;
+    font-style: italic;
+}
+.tagline2{
+    color: yellow;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: italic;
+}
+.Callus{
+    color: yellow;
+    font-size: 1.5em;
+    font-style: oblique;
+    font-weight: lighter;
+}
+nav{
+    background-color:black ;
+    color: whitesmoke;
+    padding: 15px;
+}
+button{
+    padding: 15px;
+}
+.maintext button{
+    background-color: aquamarine;
+    margin-top: 2em;
+    padding: 15px;
+    border-radius: 2em;
+    width: 20vmax;
+    font-size: larger;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 50%;
+    font-style:italic;
+    font-size: 120%;
+}
+li{
+    color: gray;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+.menu{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    background:linear-gradient(to right,rgb(100, 100, 100),rgb(53, 52, 52));
+    color:whitesmoke;
+    text-align: center;
+    font-style: italic;
+}
+#menuheading,#locheading{
+    background:linear-gradient(to right,rgb(100, 100, 100),rgb(53, 52, 52));
+    font-size:2.5em;
+    color:red;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+.menu th{
+    color:yellow;
+    font-size: larger;
+    font-style: italic;
+}
+    
+table{
+    padding: 1.5em;
+    width: 100%;
+}
+.menu tr{
+    color:aqua;
+    font-size: medium;
+    justify-content: center;
+    margin-top: 1px;
+    font-style: italic;
+}
+.menu td:nth-child(1){
+    flex:1;
+    justify-self: left;
+}
+
+
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.maincourse{
+    grid-row:span 2;
+}
+.locations{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    background:linear-gradient(to right,rgb(100, 100, 100),rgb(53, 52, 52));
+    color:whitesmoke;
+    text-align: center;
+    font-style: italic;
+}
+.locations h2{
+    color: rgb(251, 214, 29);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-style: italic;
+}
+.locations div{
+    color: rgb(114, 237, 43);
+    margin-bottom: 10px;
+    padding: 1em;
+    font-style: italic;
+}
+.copyright{
+    background-color:black;
+    color: white;
+    font-style: italic;
+    font-size: larger;
+}
+.copyright:hover{
+    color:red;
+}
