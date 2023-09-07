@@ -58,12 +58,19 @@ ul{
     font-style:italic;
     font-size: 120%;
 }
-li{
-    color: gray;
+li a{
     cursor: pointer;
-}
-li:hover{
+    list-style: none;
+    text-decoration: none;
     color: white;
+    word-spacing: 50px;
+    letter-spacing: 2px;
+    transition: 0.4s ease-in-out;
+    font-weight: bold;
+}
+li a:hover{
+    color: yellow;
+    box-shadow: inset;
 }
 .menu{
     display:grid;
